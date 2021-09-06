@@ -9,4 +9,4 @@ Add filepaths to `Main.py` and `Parameters.py`<br/>
 Run the main experiment loop contained in `Main.py`<br/>
 Run additional experiments contained in `Experiments_[NAME].py`<br/>
 Parameters are contained in `Parameters.py`<br/>
-Functions are contained in `Functions.py` and `Functions_BVAE.py`.
+Functions are contained in `Functions.py` and for additional experiments in `Functions_BVAE.py`

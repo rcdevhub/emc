@@ -8,5 +8,5 @@ This project used two custom datasets from the UK Biobank.
 Add filepaths to `Main.py` and `Parameters.py`<br/>
 Run the main experiment loop contained in `Main.py`<br/>
 Run additional experiments contained in `Experiments_[NAME].py`<br/>
-Parameters are contained in `Parameters.py`<br/
->Functions are contained in `Functions.py` and `Functions_BVAE.py`.
+Parameters are contained in `Parameters.py`<br/>
+Functions are contained in `Functions.py` and `Functions_BVAE.py`.

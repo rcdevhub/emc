@@ -1,7 +1,7 @@
 # Ethical Model Calibration
 Code to accompany the project *Ethical Model Calibration - Diagnosing and Mitigating Hidden Bias in Healthcare Models*
 ## Objective
-The objective of this project was to provide a framework to identify and mitigate bias in healthcare machine learning models. Firstly, supervised models are fit to the datasets. Model performance is explored and then debiasing is performed based on model performance in the latent space.
+The objective of this project was to provide a framework to identify and mitigate bias in healthcare machine learning models.
 ## Data
 This project used two custom datasets from the UK Biobank.
 ## How to use

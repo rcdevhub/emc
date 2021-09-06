@@ -113,9 +113,9 @@ def eda_graphs(data_train,plotsdir,data_type):
         # Slow to run
         plt.figure()
         sns.pairplot(data_train[nonbin_vars])
-        # plt.savefig(plotsdir+'/pairplot_cont.png',format='png',dpi=1200,bbox_inches="tight")
+        plt.savefig(plotsdir+'/pairplot_cont.png',format='png',dpi=1200,bbox_inches="tight")
         
-        # Pairplot by sex (by diabetes one wasn't great due to low prevalence)
+        # Pairplot by sex
         # Slow to run
         plt.figure()
         sns.pairplot(data_train[['age',
@@ -243,11 +243,6 @@ def eda_graphs(data_train,plotsdir,data_type):
         plt.savefig(plotsdir+'/diab_prev_hba1c_bucket.png',format='png',dpi=1200,bbox_inches="tight")
         
         # Deprivation by ethnicity
-        # Histplot doesn't work, something to do with the variance in height across the groups
-        # sns.histplot(data=data_train,
-        #              x='townsend_deprivation_index',
-        #              stat ='density',
-        #              hue='ethnic_category',kde=True)
         plt.figure()
         sns.distplot(data_train.loc[data_train['ethnic_category']=='white',
                                          'townsend_deprivation_index'],hist=False,kde=True)

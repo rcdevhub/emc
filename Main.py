@@ -59,15 +59,15 @@ model_type = 'nn'
 target_var = 'sex'
 
 # Switches for optional actions
-perform_eda = False
+perform_eda = True
 fit_rf = True
-reg_plot = False
-auto_plot = False
-gmm_plot = False
-worst_grp_plot = False
-gmm_plot_rebal = False
-save_results = False
-save_data = False
+reg_plot = True
+auto_plot = True
+gmm_plot = True
+worst_grp_plot = True
+gmm_plot_rebal = True
+save_results = True
+save_data = True
 
 # Make plots directory
 plots_main_dir = 'Plots/'+data_type+'_'+task_type+'_'+target_var+'_'+timestamp

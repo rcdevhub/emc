@@ -35,7 +35,7 @@ num_latent = 2
 num_output = 28
 
 kl_weight = 0.5 # regularisation of VAE loss (orig value = 0.005)
-smoothing_fac = 0.5 # Inversely proportional to resampling debiasing (orig value = 0.001)
+smoothing_fac = 0.001 # Inversely proportional to resampling debiasing (orig value = 0.001)
 
 batch_size = 10
 learning_rate = 5e-4

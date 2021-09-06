@@ -3,5 +3,5 @@ Code to accompany the project *Ethical Model Calibration - Diagnosing and Mitiga
 ## Objective
 The objective of this project was to provide a framework to identify and mitigate bias in healthcare machine learning models. 
 ## How to use
-The main experiment loop is contained in `Main.py`
+The main experiment loop is contained in `Main.py`<br/>
 Additional experiments are contained in `Experiments_X.py`

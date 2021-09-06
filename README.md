@@ -5,4 +5,5 @@ The objective of this project was to provide a framework to identify and mitigat
 ## How to use
 Add filepaths to `Main.py` and `Parameters.py`<br/>
 Run the main experiment loop contained in `Main.py`<br/>
-Run additional experiments contained in `Experiments_NAME.py`
+Run additional experiments contained in `Experiments_NAME.py`<br/>
+Parameters are contained in `Parameters.py`. Functions are contained in `Functions.py` and `Functions_BVAE.py`.

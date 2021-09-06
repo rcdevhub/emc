@@ -13,9 +13,9 @@ def call_params():
     ''' Get model parameters dictionary. '''
     params = {}
 
-    params['filepaths'] = {'neur': {'train':"Data/metadata_train.csv",
-                                    'val':"Data/metadata_rc_validation.csv"},
-                           'diab': "Data/biobank_data_for_ROBERT.csv"}
+    params['filepaths'] = {'neur': {'train':"TRAINING FILE",
+                                    'val':"VALIDATION FILE"},
+                           'diab': "DATA FILE"}
     
     params['num_trials'] = 10
 

@@ -16,7 +16,7 @@ Created on Fri Aug  6 13:46:14 2021
 '''
 
 import os
-os.chdir("path")
+os.chdir("WORKING PATH")
 import sys
 
 import numpy as np

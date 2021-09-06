@@ -16,7 +16,7 @@ Created on Fri Aug  6 13:46:14 2021
 '''
 
 import os
-os.chdir("WORKING PATH")
+os.chdir("WORKING DIRECTORY")
 import sys
 
 import numpy as np
@@ -70,11 +70,11 @@ save_results = False
 save_data = False
 
 # Make plots directory
-plots_main_dir = 'Plots/test/'+data_type+'_'+task_type+'_'+target_var+'_'+timestamp
+plots_main_dir = 'Plots/'+data_type+'_'+task_type+'_'+target_var+'_'+timestamp
 os.mkdir(plots_main_dir)
 
 # Make output directory
-outputdir = 'Output/test/'+data_type+'_'+task_type+'_'+target_var+'_'+timestamp
+outputdir = 'Output/'+data_type+'_'+task_type+'_'+target_var+'_'+timestamp
 os.mkdir(outputdir)
 
 '''

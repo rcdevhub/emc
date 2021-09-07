@@ -9,6 +9,8 @@ Created on Thu Sep  2 14:52:29 2021
 @author: rcpc4
 """
 
+# Based on work by Amini and Soleimany https://github.com/aamini/
+
 # Requires preprocessed data from main
 # Dataset: neuroticism
 # Task type: cls
